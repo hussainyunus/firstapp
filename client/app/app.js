@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('firstappApp', [
+angular.module('FirstApp', [
   'ngCookies',
   'ngResource',
   'ngSanitize',
@@ -36,7 +36,11 @@ angular.module('firstappApp', [
         controller  : 'MainCtrl'
       })
       .when('/home', {
-        templateUrl : 'app/main/home.html'
+        templateUrl : 'app/main/home.html',
+      })
+      .when('/contact', {
+        templateUrl : 'app/main/main.html',
+        controller  : 'MainCtrl'
       })
     .otherwise({
         redirectTo: '/'
