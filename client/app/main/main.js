@@ -7,7 +7,4 @@ angular.module('firstappApp')
         templateUrl: 'app/main/main.html',
         controller: 'MainCtrl'
       });
-      .when('/home',{
-        templateUrl:'app/main/home.html'
-      })
   });
