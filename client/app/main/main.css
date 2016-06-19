@@ -127,5 +127,30 @@ a{
 }
 
 .text-style{
-  padding: 0px 10px;
+  padding-left: 20px !important;
+}
+
+md-card{
+  position: relative;
+  top:30px !important;
+  left:350px !important;
+  border:1px solid #FAFAFA;
+}
+
+
+@media only screen and (max-width: 767px) {
+md-card{
+
+border:1px solid #FAFAFA;
+ position: relative;
+  top:20px !important;
+  left:10px !important;
+  }
+
+ md-input-container{
+  width: 40%;
+ }
+ .name{
+  width: 100%;
+ }
 }

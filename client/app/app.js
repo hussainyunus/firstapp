@@ -42,6 +42,10 @@ angular.module('FirstApp', [
         templateUrl : 'app/main/main.html',
         controller  : 'MainCtrl'
       })
+      .when('/about', {
+        templateUrl : 'app/main/main.html',
+        controller  : 'MainCtrl'
+      })
     .otherwise({
         redirectTo: '/'
     });
