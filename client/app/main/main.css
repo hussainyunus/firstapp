@@ -100,3 +100,32 @@
 a{
   text-decoration: none;
 }
+
+.home{
+  background-color: #EFEFEF;
+}
+
+.title-style{
+  font-weight: bold;
+  color:#ABAAAB;
+}
+
+.layout-column{
+  position: relative;
+  right:15px;
+  bottom: 15px;
+}
+
+.md-button {
+  width: 100%;
+  border-radius: 19px;
+}
+
+
+.submit-btn-style{
+  padding-top: 20px;
+}
+
+.text-style{
+  padding: 0px 10px;
+}
